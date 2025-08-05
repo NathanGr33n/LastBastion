@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/defaultFont.spritefont</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockDirt_moss1.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockDirt_moss2.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockDirt_moss3.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockDirt.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockSnow_1.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockSnow_2.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockSnow_3.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockStone_moss1.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockStone_moss2.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockStone_moss3.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/rockStone.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/smallRockDirt.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/smallRockGrass.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/smallRockSnow.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/smallRockStone.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileAutumn_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileAutumn_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileAutumn.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileDirt_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileDirt_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileDirt.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileGrass_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileGrass_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileGrass.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileLava_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileLava_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileLava.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileMagic_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileMagic_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileMagic.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileRock_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileRock_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileRock.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileSand_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileSand_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileSand.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileSnow_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileSnow_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileSnow.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileStone_bridge.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileStone_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileStone_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileStone.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileWater_full.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileWater_shadow.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileWater_tile.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileWater.png</File>
+    <File>E:/GIT/LastBastion/LastBastion/LastBastion/Content/tileWood_bridge.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/GIT/LastBastion/LastBastion/LastBastion/Content/defaultFont.spritefont</SourceFile>
+  <SourceTime>2025-08-05T11:10:11.3528489-07:00</SourceTime>
+  <DestFile>E:/GIT/LastBastion/LastBastion/LastBastion/Content/bin/Windows/defaultFont.xnb</DestFile>
+  <DestTime>2025-08-05T11:25:06.1192289-07:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2022-07-26T04:44:56-07:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2022-07-26T04:44:56-07:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

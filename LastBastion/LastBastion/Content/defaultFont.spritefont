@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+    <FontName>Arial</FontName> <!-- Uses system font Arial -->
+    <Size>16</Size>             <!-- Font size -->
+    <Spacing>0</Spacing>
+    <UseKerning>true</UseKerning>
+    <Style>Regular</Style>
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start> </Start>
+        <End>~</End> <!-- Covers basic ASCII range -->
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>
