@@ -32,6 +32,14 @@ namespace LastBastion
         private int stone = 50;
         private int morale = 80;
 
+        //Hexmap data
+        private Texture2D hexTileTexture;
+        private const int mapwidth = 10;
+        private const int mapHeight = 10;
+        private const int hexWidth = 64;
+        private const int hexHeight = 74; //pointy hex
+        private Vector2[,] hexTilePositions = new Vector2[mapwidth, mapHeight];
+
         public Game1()
         {
             //Initialize Graphics Manager
@@ -48,7 +56,7 @@ namespace LastBastion
         protected override void Initialize()
         {
             //TODO: Perform setup logic here
-
+            GenerateHexTilePositions();
             base.Initialize();
         }
 
@@ -60,6 +68,8 @@ namespace LastBastion
 
             //Load font
             _font = Content.Load<SpriteFont>("defaultFont");
+            //Load Hextile texture
+            hexTileTexture = Content.Load<Texture2D>("hex_tile"); // Add Hex Texture
         }
 
         //Called Every Frame to update game logic
@@ -79,6 +89,8 @@ namespace LastBastion
 
             //Handle Input
             HandleInput();
+            //Update Game Logic
+            UpdateGameLogic();
 
             //TODO: Handle Turn System
 
@@ -130,6 +142,35 @@ namespace LastBastion
             _spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        private void GenerateHexTilePositions()
+        {
+            //generate positions for a pointy hex tilemap
+            float xOffset = hexWidth * 0.75f; //Horizontal spacing between hexes
+            float yOffset = hexHeight * 0.5f; //Vertical offest for staggered rows
+
+            for(int y = 0; y <mapHeight; y++)
+            {
+                for(int x = 0; x <mapwidth; x++)
+                {
+                    float xPos = x * xOffset;
+                    float yPos = y * hexHeight + (x % 2 ==1 ? yOffset: 0);
+                    hexTilePositions[x, y] = new Vector2(xPos + 400, yPos + 100); //shifted to center screen
+                }
+            }
+        }
+
+        private void DrawHexMap()
+        {
+            for(int y = 0; y < mapHeight; y++) 
+            {
+                for(int x = 0; x < mapwidth; x++)
+                {
+                    Vector2 pos = hexTilePositions[x, y];
+                    _spriteBatch.Draw(hexTileTexture, pos, Color.White);
+                }
+            }
         }
     }
 }
